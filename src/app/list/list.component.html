@@ -1,0 +1,22 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12" *ngFor="let content of contents">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="assets/images/{{content.id}}.png" class="card-img" alt="{{content.title}}">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">{{content.title}}</h5>
+                          <p class="card-text">{{content.description}}</p>
+                          <p class="card-text"><small class="text-muted">Publicado em {{content.date}} - Por: {{content.user_id}}</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
