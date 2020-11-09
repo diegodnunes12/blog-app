@@ -26,13 +26,6 @@
       "date": "2020-11-01",
       "category_id": 2,
       "user_id": 1
-    },
-    {
-      "nome": "Hambúrguer de frango",
-      "descricao": "Pão, bife de hambúrguer 90g de frango, salada e batata.",
-      "preco": 9.5,
-      "categoria_id": 1,
-      "id": 4
     }
   ],
   "categories": [

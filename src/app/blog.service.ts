@@ -22,6 +22,10 @@ export class BlogService {
     return this.httpClient.get(`${this.URL}${path}`);
   }
 
+  getData(path: String){
+    return this.httpClient.get(`${this.URL}${path}`);
+  }
+
   convertDate(){
     var data = new Date();
     console.log(data.toLocaleDateString());
