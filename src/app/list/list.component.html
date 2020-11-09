@@ -5,13 +5,17 @@
                 <div class="card mb-3">
                     <div class="row no-gutters">
                       <div class="col-md-4">
-                        <img src="assets/images/{{content.id}}.png" class="card-img" alt="{{content.title}}">
+                        <a routerLink="/{{content.id}}">
+                          <img src="assets/images/{{content.id}}.png" class="card-img" alt="{{content.title}}">
+                        </a>
                       </div>
                       <div class="col-md-8">
                         <div class="card-body">
+                          <a routerLink="/{{content.id}}">
                           <h5 class="card-title">{{content.title}}</h5>
                           <p class="card-text">{{content.description}}</p>
                           <p class="card-text"><small class="text-muted">Publicado em {{content.date}} - Por: {{content.user_id}}</small></p>
+                          </a>
                         </div>
                       </div>
                     </div>
