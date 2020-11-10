@@ -16,7 +16,6 @@ export class ListComponent implements OnInit {
   ngOnInit(): void {
     this.service.getAllContents('contents').subscribe( (contents:any) => {
       this.contents = contents;
-      
       console.log(this.contents);
     } );
   }

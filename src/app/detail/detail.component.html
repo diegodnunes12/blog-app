@@ -8,7 +8,7 @@
             </h1>
             <hr>
             <p class="text-center text-white">
-                {{day}}/{{month}}/{{year}} - Por: {{user?.name}}
+                {{ content.date | date : 'dd/MM/yyyy'}} - Por: {{content?.user.name}}
             <p>
         </div>
     </div>
